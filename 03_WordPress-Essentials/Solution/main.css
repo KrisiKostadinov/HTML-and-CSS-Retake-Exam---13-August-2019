@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background: #234465;
+}
+
+#nav #logo {
+    width: 120px;
+    margin-top: 10px;
+}
+
+#nav #left button {
+    top: -12px;
+    position: relative;
+    padding: 7px 14px;
+    background: #FFA000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+#nav #right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#nav #right ul li {
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+#nav #right ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #91A1B2;
+    font-family: 'Lato', sans-serif;
+}
+
+#nav #right ul li i {
+    margin: 0 10px;
+}
+
+#nav #right ul li button {
+    color: #fff;
+    background: #FFA000;
+    padding: 7px 14px;
+    border-radius: 25px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#nav {
+    display: flex;
+}
+
+#sub-nav {
+    width: 100%;
+}
+
+#sub-nav ul {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#sub-nav ul li {
+    margin: 10px;
+}
+
+#sub-nav ul li a {
+    text-decoration: none;
+    color: #D89100;
+    padding: 10px 0;
+}
+
+.sel {
+    color: #234480;
+    border-bottom: solid 2px #234480;
+}
+
+#header {
+    width: 100%;
+    background: rgba(100, 100, 100, 0.7);
+}
+
+#header h2 {
+    text-align: center;
+    font-size: 2.9em;
+    color: #fff;
+}
+
+#header ul {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: normal;
+    list-style: none;
+    justify-content: center;
+}
+
+#header ul li {
+    margin-right: 20px;
+}
+
+#header ul li i {
+    padding-right: 10px;
+}
+
+#header div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header div button {
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 60px;
+    background: #ffab00;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 2.9em;
+    outline: none;
+    cursor: pointer;
+}
+
+#wordpress-img img {
+    position: absolute;
+    width: 400px;
+    transform: rotate(20deg);
+    left: -100px;
+    bottom: 100px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.main .first {
+    width: 70%;
+    background: #F2F2F2;
+    margin: 20px auto;
+}
+
+.main .first h2 {
+    text-align: center;
+    padding: 20px;
+    color: #234465;
+    font-weight: bold;
+}
+
+.main .first hr {
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+    background: #FFA000;
+    width: 90px;
+    height: 4px;
+    border: none;
+}
+
+.main .first p {
+    padding: 0 60px;
+    color: #40669C;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.main .first div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .first div button {
+    padding: 7px 60px;
+    margin: 20px auto;
+    background: #ffab00;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 25px;
+    outline: none;
+}
+
+.main .second {
+    width: 70%;
+    background: #F2F2F2;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.main .second ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main .second h2 {
+    padding: 20px 0;
+    text-align: center;
+    color: #234465;
+}
+
+.main .second hr {
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+    width: 400px;
+    height: 4px;
+    background: #FFA000;
+    border: none;
+}
+
+.main .second ul {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main .second ul li i {
+    color: #FFA000;
+    font-size: 24px;
+}
+
+.main .second ul li {
+    line-height: 2em;
+    color: #5F6E7A;
+}
+
+.main .tirth {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #F2F2F2;
+}
+
+.main .tirth h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: #234465;
+}
+
+.main .tirth hr {
+    width: 60px;
+    height: 4px;
+    margin: 0 auto;
+    border: none;
+    background: #FFA000;
+}
+
+.main .tirth ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(20px, 100%));
+    grid-auto-flow: row;
+    grid-gap: 1rem;
+    padding: 27px;
+}
+
+.main .tirth ul li {
+    background: #DADADA;
+    padding: 7px 0;
+    border-left: 2px solid #234465;
+    font-weight: 700;
+    color: #65707A;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.main .tirth ul li span {
+    margin: 0 10px;
+    font-weight: 700;
+    color: #234465;
+}
+
+.main .four {
+    background: #FFA000;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.main .four h2 {
+    text-align: center;
+}
+
+.main .four hr {
+    width: 370px;
+    border: none;
+    height: 4px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.main .four p {
+    padding: 0 60px;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.main .fiveth {
+    width: 70%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.main .fiveth h2 {
+    padding-top: 20px;
+    color: #FFA10D;
+    font-size: 20px;
+}
+
+.main .fiveth p {
+    color: #65707A;
+}
+
+.main .sixth .first {
+    background: #234465;
+    margin: 0 auto;
+}
+
+.main .sixth .first {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main .sixth .first span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    top: 10px;
+    right: 12%;
+    font-weight: bold;
+    position: relative;
+}
+
+.main .sixth .first span:nth-child(2) {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 24px;
+    padding-bottom: 14px;
+}
+
+.main .sixth .sixth-second {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: #FFA000;
+}
+
+.main .sixth .sixth-second span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    top: 10px;
+    right: 12%;
+    font-weight: bold;
+    position: relative;
+}
+
+.main .sixth .sixth-second span:nth-child(2) {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 24px;
+    padding-bottom: 14px;
+}
+
+.main .seventh {
+    width: 70%;
+    background: #F2F2F2;
+    margin: 0 auto;
+}
+
+.main .seventh h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #234465;
+    padding: 20px 0;
+}
+
+.main .seventh .section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main .seventh .section .section-second {
+    margin: 0 20px;
+}
+
+.main .seventh .section .section-first img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.main .seventh .section .section-second h2 {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.main .seventh .section .section-second p {
+    padding-bottom: 2.9em;
+    line-height: 24px;
+    color: #5E709C;
+}
+
+.main .seventh hr {
+    width: 170px;
+    height: 4px;
+    border: none;
+    background: #FFA000;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+}
+
+.main .button:last-child {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.main .button:last-child button {
+    border: none;
+    padding: 10px 60px;
+    color: #fff;
+    background: #FFA000;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.footer {
+    background: #162B40;
+}
+
+.footer .footer-section {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer .footer-section h2 {
+    color: #FFA000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.footer .footer-section ul {
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.footer .footer-section ul li {
+    cursor: pointer;
+}
+
+.footer .section-fourth {
+    width: 200px;
+    font-size: 14px;
+    color: #65707A;
+}
+
+.footer .section-fourth p {
+    margin: 10px 0;
+}
+
+.footer .social-icons ul li {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.footer .section-fourth {
+    display: block;
+}
