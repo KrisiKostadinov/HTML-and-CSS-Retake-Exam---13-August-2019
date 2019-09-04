@@ -1,0 +1,41 @@
+@media only screen and (max-width: 700px) {
+    .spotlight .inner {
+        padding: 2rem;
+    }
+    .spotlight .inner>p {
+        font-size: 7px;
+    }
+    .spotlight .inner>h3 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .wrapper>header h2 {
+        font-size: 20px;
+    }
+    .wrapper.style2 {
+        padding: 2rem;
+    }
+    .wrapper>header h2:after {
+        width: 90%;
+    }
+    .wrapper>header {
+        padding: 1rem;
+    }
+    .gallery {
+        display: block;
+    }
+    .gallery>* {
+        width: 100%;
+    }
+    .spotlight {
+        display: block;
+    }
+    .spotlight>* {
+        width: 100%;
+    }
+    .spotlight .inner>p {
+        font-size: 10px;
+    }
+}
